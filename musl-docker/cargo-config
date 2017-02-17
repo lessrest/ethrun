@@ -1,0 +1,3 @@
+[target.x86_64-unknown-linux-musl.rocksdb]
+rustc-link-search = ["/usr/local/musl/lib"]
+rustc-link-lib = ["rocksdb"]
